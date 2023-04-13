@@ -51,7 +51,8 @@ pub fn logic(args: &ArgMatches) {
 
     let output = process::Command::new("pnpm")
         .arg("vitest")
-        .arg("--run")
+        .arg("run")
+        .arg(&exercise)
         .env("KEYPAIR", keypair)
         .env("PROGRAM_PATH", program)
         .output();
