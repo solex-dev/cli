@@ -1,5 +1,5 @@
 [package]
-name = "solana_exercises"
+name = "solex"
 version = "0.1.0"
 edition = "2021"
 
